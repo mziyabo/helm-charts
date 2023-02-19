@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  fargate-sidecar-injector:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-02-14T21:35:54.439859301Z"
+    description: A Helm chart for Kubernetes
+    digest: 72cecf735d020209902fc348a93df516e7e62b13683ac1ae6e59133c9d443161
+    name: fargate-sidecar-injector
+    type: application
+    urls:
+    - https://github.com/mziyabo/helm-charts/releases/download/fargate-sidecar-injector-0.1.0/fargate-sidecar-injector-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-02-14T21:35:54.158461513Z"
