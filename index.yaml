@@ -3,8 +3,25 @@ entries:
   fargate-sidecar-injector:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-06-05T18:44:13.948507821Z"
+    description: Kubernetes sidecar injection webhook for AWS Fargate pods.
+    digest: bcbf6bdab225e5ce9dd625e019db798658c20a31e2c33890cd555df03545c127
+    home: https://github.com/mziyabo/fargate-eks-sidecar-injector
+    maintainers:
+    - name: mziyabo
+      url: mziyabo.github.io
+    name: fargate-sidecar-injector
+    sources:
+    - https://github.com/mziyabo/fargate-eks-sidecar-injector
+    type: application
+    urls:
+    - https://github.com/mziyabo/helm-charts/releases/download/fargate-sidecar-injector-0.1.5/fargate-sidecar-injector-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-04-27T09:20:28.86637277Z"
-    description: Kubernetes mutating webhook for injecting sidecars into AWS Fargate pods.
+    description: Kubernetes mutating webhook for injecting sidecars into AWS Fargate
+      pods.
     digest: dd360fc17aa46971545b72dd9bddcb7bb73274bd29f8386fa2327f90d907c841
     home: https://github.com/mziyabo/fargate-eks-sidecar-injector
     maintainers:
@@ -20,11 +37,12 @@ entries:
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2023-02-19T10:31:59.125179026Z"
-    description: Kubernetes mutating webhook for injecting sidecars into AWS Fargate pods.
+    description: Kubernetes mutating webhook for injecting sidecars into AWS Fargate
+      pods.
     digest: d6219dc441e62c41c3e2a1237f22a7b4a0183e29a27ae805ed6a4c58db66096e
     name: fargate-sidecar-injector
     type: application
     urls:
     - https://github.com/mziyabo/helm-charts/releases/download/fargate-sidecar-injector-0.1.3/fargate-sidecar-injector-0.1.3.tgz
     version: 0.1.3
-generated: "2023-02-14T21:35:54.158461513Z"
+generated: "2023-06-05T18:44:13.948525621Z"
